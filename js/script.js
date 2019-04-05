@@ -154,7 +154,7 @@ function createMessageElement(messageObject){
         minutesTemp;
 
     // retruning element that creates div with jQuery and appends all other channel meta
-    return $('<div>').addClass('message own').append('<h3><a href="http://w3w.co/'+messageObject.createdBy+'" target="_blank"><strong>'+messageObject.createdBy+'</strong></a> '+dateToString+' <em>'+expiresIn+' min. left</em></h3> <p>'+messageObject.text+'</p><button>+5 min.</button>');
+    return $('<div>').addClass('message own').append('<h3><a href="http://w3w.co/'+messageObject.createdBy+'<strong>'+messageObject.createdBy+'</strong></a> '+dateToString+' <em>'+expiresIn+' min. left</em></h3> <p>'+messageObject.text+'</p><button>+5 min.</button>');
 }
 
 

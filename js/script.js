@@ -100,26 +100,16 @@ function Message(text){
     this.own = true;
 }
 
-// #8 sendMessage function
-function sendMessage() {
-    var writtenMessage = $('#input-message').val();
 
-    var newMessage = new Message (writtenMessage);
-
-    $('#messages').append(createMessageElement(newMessage));
-
-    // #8 input is cleared after sending a message
-    $('#input-message').val('');
-}
 
 // #8 sendMessage function
 function sendMessage(){
     // creating new Message Element
-    var sentMessage = new Message($('#messageInput').val());
+    var sentMessage = new Message($('#input-message').val());
     console.log(sentMessage);
 
     // Clearing input field
-    $('#messageInput').val('');
+    $('#input-message').val('');
 
     // Calling createMessageElement Function and appending it to Messages
     $('#messages').append(createMessageElement(sentMessage));

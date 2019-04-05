@@ -21,10 +21,15 @@
     <!-- #6 #external #action# channels-->
     <script src="js/channels.js"></script>
 </head>
-<body>
 
-<!-- channel area -->
-<div id="channels">
+
+<!-- loading channel list -->
+<body onload="listChannel()">
+
+
+<!-- LEFT SIDE ---------------------------------------------------------------------------------------------->
+<div  id="channels">
+
 
     <!-- APP BAR for APP TITLE -->
     <h1 id="left-app-bar"> <!-- #5 added id for main app bar-->
@@ -32,47 +37,58 @@
         chatter|app
     </h1>
 
-    <!-- CHANNELS -->
+    <!-- CHANNELS -------------------------------------------------->
     <ul>
         <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
-        <!-- <li onclick="switchChannel('#Yummy')"> -->
         <li onclick="switchChannel(yummy)">
             #Yummy
             <!-- #5 #channels #icons now grouped in .channel-meta span -->
             <span class="channel-meta">
-                <i class="far fa-star" onclick="starList()"></i>
+                <i class="far fa-star"></i>
+                <span>100 min</span>
+                <span>999 new</span>
                 <!-- #5 #channels #icons now with chevron -->
                 <i class="fas fa-chevron-right"></i>
+
             </span>
         </li>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
-        <li class="selected" onclick="switchChannel(sevencontinents)">
+        <!-- #6 #channels #cl  ick calls our switchChannel with the corresponding name as an argument -->
+        <li class="selected" onclick="switchChannel(sevenContinents)">
             #SevenContinents
             <!-- #5 #channels #icons now grouped in .channel-meta span -->
             <span class="channel-meta">
                 <i class="fas fa-star"></i>
+                <span>100 min</span>
+                <span>999 new</span>
                 <!-- #5 #channels #icons now with chevron -->
                 <i class="fas fa-chevron-right"></i>
+
             </span>
         </li>
         <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
-        <li onclick="switchChannel(killerapp)">
+        <li onclick="switchChannel(killerApp)">
             #KillerApp
             <!-- #5 #channels #icons now grouped in .channel-meta span -->
             <span class="channel-meta">
                 <i class="far fa-star"></i>
+                <span>100 min</span>
+                <span>999 new</span>
                 <!-- #5 #channels #icons now with chevron -->
                 <i class="fas fa-chevron-right"></i>
+
             </span>
         </li>
         <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
-        <li onclick="switchChannel(firstpersononmars)">
+        <li onclick="switchChannel(firstPersonOnMars)">
             #FirstPersonOnMars
             <!-- #5 #channels #icons now grouped in .channel-meta span -->
             <span class="channel-meta">
                 <i class="fas fa-star"></i>
+                <span>100 min</span>
+                <span>999 new</span>
                 <!-- #5 #channels #icons now with chevron -->
                 <i class="fas fa-chevron-right"></i>
+
             </span>
         </li>
         <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
@@ -81,45 +97,49 @@
             <!-- #5 #channels #icons now grouped in .channel-meta span -->
             <span class="channel-meta">
                 <i class="far fa-star"></i>
+                <span>100 min</span>
+                <span>999 new</span>
                 <!-- #5 #channels #icons now with chevron -->
                 <i class="fas fa-chevron-right"></i>
+
             </span>
         </li>
 
-    </ul>
 
-    <!-- TAB BAR -->
+    </ul>
+    <div onload="listChannels()" id="doublelist">
+    </div>
+
+    <!-- TAB BAR --------------------------------------------->
     <div id="tab-bar">
-        <!-- #6 #taptab buttons are getting ids with #hyphens and a #change listener calling selectTab.
-             Pass the #argument to select Tab -->
+        <!-- #6 #taptab buttons are getting ids with #hyphens and a #change listener calling selectTab.-->
         <button class="selected" id="tab-new" onclick="selectTab('#tab-new')">
-            <!-- <img src="http://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="Bulb">  -->
             <i class="far fa-lightbulb"></i><br> New
         </button>
         <button id="tab-trending" onclick="selectTab('#tab-trending')">
-            <!-- <img src="http://ip.lfe.mw.tum.de/sections/fire.png" alt="Hot">  -->
             <i class="fas fa-fire-alt"></i><br> Trending
         </button>
         <button id="tab-favorites" onclick="selectTab('#tab-favorites')">
-            <!-- <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="Star"> -->
             <i class="far fa-star"></i><br> Favorites
         </button>
     </div>
 </div>
 
+<!-- RIGHT SIDE ---------------------------------------------------------------------------------------------->
+
 <div id="chat">
 
     <!-- APP BAR for CHANNEL TITLE -->
     <h1>
-        <!-- #6 #channels #switcher needs to identify the channel name, so let's give it an ID -->
+        <!-- #6 #channels #switcher needs to identify the channel name-->
         <span id="channel-name">#SevenContinents</span>
         <!-- #6 #channels #location also needs an id -->
         <small id="channel-location">by <strong>cheeses.yard.applies</strong></small>
         <!-- #6 #liking channels requires a #filled star / with its #click listener -->
         <i id="channel-star" class="fas fa-star" onclick="star()"></i>
-        <!-- <img id="channel-star" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="Favourite" onclick="star()"> -->
     </h1>
 
+    <!-- MESSAGES ------------------------------------------------------->
     <!-- #5 #messages are now wrapped in a div to #scroll properly */ -->
     <div id="messages">
 
@@ -168,32 +188,21 @@
             <button>+5 min.</button>
         </div>
 
-        <!-- #8 Message -->
-        <!-- <div class="message">
-            <h3><a href=":createdBy:" target="_blank"><strong>:createdBy:</strong></a>
-                :createdOn: <em>:expiresIn: min. left</em></h3>
-            <p>:text:</p>
-            <button>+5 min.</button>
-        </div> -->
-
-
+    <!-- INPUT AREA ------------------------------------------------------->
     <!-- #5 #smileys #insert the chat-bar -->
-    <div id="chat-bar"> <!-- #6 #smile #show the menu on click -->
-        <button id="emojis-button" onclick="toggleEmojis()"><i class="far fa-smile"></i></button>
-        <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1F606; &#x1F607;</div>
-        
-        <!-- #8 input Element -->
-        <input type="text" id="messageInput" name="messageinput" maxlength="140" placeholder="Message...">
+        <!-- #5 #smileys #insert the chat-bar -->
+        <div id="chat-bar"> <!-- #6 #smile #show the menu on click -->
+            <button id="emojis-button" onclick="toggleEmojis()"><img src="http://ip.lfe.mw.tum.de/sections/smile-o.png" alt="Smiley"></button>
+            <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1F606; &#x1F607;</div>
 
-         <!-- #8 send-message button with onclick sendMessage function -->
-        <button id="send-button" onclick="sendMessage()">
-            <i class="fas fa-arrow-right"></i>    
-        </button>
+            <!-- #8 space for writing a new Message -->
+            <input id="input-message" type="text" name="new-message" placeholder="Message..." maxlength="140">
+
+            <!-- #8 button to send a new Message -->
+            <button id="send-button" onclick="sendMessage();"><i class="fas fa-arrow-right"></i></button>
+        </div>
     </div>
-
-    <!-- #8 button with arrow -->
-    
 </div>
-
 </body>
+
 </html>

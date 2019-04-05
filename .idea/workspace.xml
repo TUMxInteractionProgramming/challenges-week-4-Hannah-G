@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0221f3a7-8195-4f01-b6eb-25718c614bbf" name="Default Changelist" comment="" />
+    <list default="true" id="0221f3a7-8195-4f01-b6eb-25718c614bbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges-week-4-Hannah-G-Challenge7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/challenges-week-4-Hannah-G-Challenge7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/channels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+            <state relative-caret-position="581">
+              <caret line="204" column="6" lean-forward="true" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -28,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2868">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="682">
+              <caret line="309" column="1" lean-forward="true" selection-start-line="309" selection-start-column="1" selection-end-line="309" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -37,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="9">
+              <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/channels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="127">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -66,36 +74,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toggle</find>
-      <find>switchChann</find>
-      <find>yummy</find>
-      <find>switchCh</find>
-      <find>chann</find>
-      <find>channels</find>
-      <find>listne</find>
-      <find>yumm</find>
-      <find>switch</find>
-      <find>app ab</find>
-      <find>getelementby</find>
-      <find>#</find>
-      <find>switchchannel</find>
-      <find>channel-name</find>
-      <find>channe</find>
-      <find>killera</find>
-      <find>killerapp</find>
-      <find>onclick</find>
-      <find>current</find>
-      <find>currentchanne</find>
-      <find>listchannels</find>
-      <find>channelobject</find>
-      <find>channelName</find>
-      <find>channelObject</find>
-      <find>switchChannel</find>
-      <find>channel</find>
-      <find>channelname</find>
       <find>starlist</find>
       <find>startlist</find>
       <find>switchChanne</find>
+      <find>messageInput</find>
+      <find>createdBy</find>
+      <find>messageinput</find>
+      <find>message</find>
+      <find>sendmea</find>
+      <find>input-field</find>
+      <find>$.scrollTop()</find>
+      <find>send</find>
+      <find>CHAT-BAR</find>
+      <find>input</find>
+      <find>scrollTop</find>
+      <find>send-</find>
+      <find>mess</find>
+      <find>onload</find>
+      <find>tab</find>
+      <find>chat</find>
+      <find>MESSAGE</find>
+      <find>listCh</find>
+      <find>shadow--</find>
+      <find>shadow</find>
+      <find>list</find>
+      <find>listChannels</find>
+      <find>double</find>
+      <find>date</find>
+      <find>create</find>
+      <find>function createmes</find>
+      <find>message own</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,18 +116,22 @@
         <option value="$PROJECT_DIR$/../challenges-von-julius/challenges-week-4-GordonFreeman47/index.html" />
         <option value="$PROJECT_DIR$/../challenges-von-julius/challenges-week-5-GordonFreeman47/js/channels.js" />
         <option value="$PROJECT_DIR$/js/test.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$USER_HOME$/Desktop/challenges-week-4-lukasheil-master/index.html" />
+        <option value="$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/js/script.js" />
+        <option value="$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/js/script.js" />
+        <option value="$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/index.html" />
         <option value="$PROJECT_DIR$/js/channels.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="-1055" />
-    <option name="width" value="1569" />
-    <option name="height" value="1017" />
+    <option name="x" value="3" />
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +168,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/js/script.js" />
   </component>
   <component name="RunDashboard">
@@ -188,11 +200,13 @@
       <workItem from="1554369954613" duration="3268000" />
       <workItem from="1554373446652" duration="1424000" />
       <workItem from="1554379619761" duration="3336000" />
+      <workItem from="1554383059807" duration="1680000" />
+      <workItem from="1554407413128" duration="14784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20494000" />
+    <option name="totallyTimeSpent" value="36958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,9 +218,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="-1055" width="1569" height="1017" extended-state="0" />
+    <frame x="3" y="24" width="1680" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="765" y="77" width="139" height="909" id="Project" order="0" side_tool="true" visible="true" weight="0.26033592" />
+      <window_info active="true" content_ui="combo" x="765" y="77" width="139" height="909" id="Project" order="0" side_tool="true" visible="true" weight="0.11814346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.249354" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32945737" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,25 +239,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" x="765" y="77" width="139" height="909" id="Project" order="0" side_tool="true" visible="true" weight="0.26033592" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.249354" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32945737" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879817" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879817" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -306,24 +302,158 @@
     <entry file="file://$PROJECT_DIR$/js/test.js" />
     <entry file="file://$PROJECT_DIR$/../challenges-von-julius/challenges-week-4-GordonFreeman47/js/channels.js" />
     <entry file="file://$PROJECT_DIR$/../challenges-von-julius/challenges-week-4-GordonFreeman47/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-4-GordonFreeman47/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2868">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="-1354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="159" lean-forward="true" selection-start-line="140" selection-end-line="159" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="96" column="24" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/challenges-week-4-lukasheil-master/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/challenges-week-4-lukasheil-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="148" column="60" lean-forward="true" selection-start-line="148" selection-start-column="60" selection-end-line="148" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../IPP_Block_Course (Lukas Heil)/challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/challenges-week-4-lukasheil-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/neuer Versuch/js/channels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/js/channels.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2835">
+          <caret line="163" selection-start-line="155" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../challenges-von-julius-IPP/challenges-week-5-GordonFreeman47/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/challenges-week-4-PhilEggman-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/channels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="127">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="309" column="1" lean-forward="true" selection-start-line="309" selection-start-column="1" selection-end-line="309" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="9">
+          <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -332,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+        <state relative-caret-position="581">
+          <caret line="204" column="6" lean-forward="true" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
         </state>
       </provider>
     </entry>

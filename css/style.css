@@ -34,7 +34,9 @@ button, strong {
     position: absolute;
     height: 100%;
     width: 40%;
+
     background-color: #3F51B5; /* temporary background color to see the effect, is completely hidden now */
+
 }
 
 #chat {
@@ -94,14 +96,7 @@ h1 #channel-star {
     /* #6 #liking #filled  */
     position:absolute;
     right: 16px;
-    font-size: 24px;
-    padding: 0px;
 }
-
-/* Test for correct class toggle*/
-/* h1 .far{
-    background-color: yellow;
-} */
 
 /* CHANNELS LIST */
 
@@ -117,19 +112,13 @@ ul {
     overflow-y: auto; /* this adds scroll bars on demand */
 }
 
-/* Sizing awesome Font icons in Channel list */
-
-/* #channels .fas, .far { */
-i {
-    font-size: 24px;
-}
-
 li {
     box-sizing: border-box;
     height: 48px;
     padding: 16px;
     font-size: 16px;
     border-bottom: 1px solid #F5F5F5;
+
 
     /* #5 #channels position channel-meta #icons within the li needs relative positioning (relative stops absolute) */
     position: relative;
@@ -140,10 +129,24 @@ li .channel-meta {
     position: absolute;
     right: 16px;
     top: 12px;
+
 }
 
-li img {
+/* #7 styling the star in chevron in the channel list */
+li i {
     vertical-align: middle;
+    font-size: 24px;
+}
+
+/* #8 styling the new boxes expiresIn and messageCount */
+li span span {
+    vertical-align: middle;
+    font-size: small;
+    background-color: #3F51B5;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
 }
 
 li.selected {
@@ -166,12 +169,6 @@ li.selected {
     /* #5 #tab-bar #flexify the buttons*/
     display: flex;
 }
-/* Sizing awesome Font icons in Channel list */
-
-#tab-bar i {
-
-    padding: 4px;
-}
 
 /* #5 #smileys #lazy: we can reuse most of the tab-bar buttons' styles for the chat-bar buttons */
 #tab-bar button, #chat-bar button {
@@ -191,7 +188,7 @@ li.selected {
     border-bottom: 4px solid #3F51B5;
 }
 
-#tab-bar button img {
+#tab-bar button i {
     display: block;
     margin: 0 auto 4px auto;
 }
@@ -230,7 +227,23 @@ li.selected {
     display: none;
 }
 
+/* #8 styles the input for a new message */
+input {
+    border: none;
+    font-size: medium;
+    flex-basis: 78%;
+}
 
+/* #8 position of the send button */
+#send-button {
+    position: absolute;
+    right: 5px;
+}
+
+/* #8 the size of the right arrow which is the send button */
+#send-button i {
+    font-size: 24px;
+}
 
 /* MESSAGES */
 
@@ -292,17 +305,6 @@ li.selected {
     margin-left: 17.5%;
 }
 
-#messageInput{
-    font-size: medium;
-    width: 100%;
-    border-style: none;
-
-    position: relative;    
+#doublelist {
+    opacity: 0.0;
 }
-
-#send-button{
-    width: 10%;
-    position: relative;
-    right: 0px;
-}
-
